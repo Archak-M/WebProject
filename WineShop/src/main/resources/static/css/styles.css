@@ -1,0 +1,221 @@
+
+
+#cover{
+  /* position: relative; */
+  background-image: url("../images/cover2.jpg");
+  background-position: center;
+  background-size: cover;
+
+}
+
+#cover .navbar-brand:hover{
+  color: #FFB200;
+  transform: scale(1.1);
+}
+
+
+.brandName{
+  /* position: absolute; */
+  text-align: left;
+  color: #FFB200;
+  font-size: 100px;
+  padding: 10% 0 5% 3%;
+font-family: 'Potta One', cursive;
+}
+
+.navbar-design{
+  text-align: center;
+}
+
+.menubar{
+    color: white;
+}
+
+.menubar:hover{
+  color: #FFB200;
+}
+
+.navbar-brand{
+  font-family: 'Potta One', cursive;
+  padding-left: 3%;
+  font-size: 25px;
+}
+
+.cust-icon{
+  font-size: 25px;
+  color: #FFB200;
+  margin-left: 10px;
+}
+
+.cust-icon:hover{
+  color: white;
+}
+
+.mybtn1{
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.mybtn1:hover{
+  background-color: white;
+}
+
+
+.testimonials{
+
+  text-align: left;
+  color: white;
+  width: 50%
+}
+
+.carousel-item{
+
+  text-align: left;
+  color: #FAEA48;
+  /* font-family: 'Teko', sans-serif; */
+}
+
+h3{
+  color: #FAEA48;
+}
+
+.item-desc{
+  text-align: left;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  color: white;
+}
+
+/* Changing carousel indicators shape to dot */
+.carousel-indicators li{
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+
+/* Changing carousel indicators active property */
+.carousel-indicators .active{
+  width: 14px;
+    height: 14px;
+    border-radius: 100%;
+    background-color: #FAEA48;
+}
+
+.mybtn{
+  margin: 3% 0 10% 0;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.test{
+  width: 100px;
+  padding-right: 100px;
+}
+
+.nav-text{
+  color: yellow;
+}
+
+#offers{
+  margin: 100px 80px ;
+}
+
+ /* .offer-item{
+  background-color: Black;
+  margin: auto;
+  border: 20px solid white;
+  border-radius: 10%;
+} 
+
+
+offer-image{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  margin: 4%;
+  float: left;
+  border: 7px solid #F77E21;
+} */
+
+/* .offer-image:hover{
+  transform: scale(1.2);
+} */
+
+
+.offer-head{
+  margin-top: 4%;
+  font-size: 35px;
+  color: #FFB200;
+  font-family: 'Leckerli One', cursive;
+
+}
+
+.offer-text{
+  font-size: 20px;
+  color: #FAF4B7;
+  font-family: 'Ultra', serif;
+
+}
+
+.offer-price{
+  font-size: 40px;
+  font-family: 'Leckerli One', cursive;
+  color: #F77E21;
+}
+
+
+#offers .offer-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 45px;
+  border-radius: 5px;
+  padding: 20px 15px;
+  background-color: #222831;
+  color: #ffffff;
+}
+
+#offers .offer-item .offer-image{
+  width: 175px;
+  min-width: 175px;
+  height: 175px;
+  margin-right: 15px;
+  /* position: relative; */
+  -webkit-transition: all 0.1 0.5s;
+  transition: all 0.1 0.5s;
+  border-radius: 100%;
+  border: 5px solid #ffbe33;
+  overflow: hidden;
+} 
+
+#offers .offer-item .offer-image img{
+  width: 175px;
+  height: 175px;
+}
+
+#offers .offer-item .offer-image:hover img{
+   /* -webkit-transform-2d: scale(1.1);  */
+          transform: scale(1.1);
+}
+
+
+#menu h2{
+  text-align: center;
+  font-family: 'Leckerli One', cursive;
+}
+
+
+/*
+font-family: 'Berkshire Swash', cursive;
+font-family: 'Ceviche One', cursive;
+font-family: 'Leckerli One', cursive;
+font-family: 'Potta One', cursive;
+font-family: 'Saira Stencil One', cursive;
+font-family: 'Teko', sans-serif;
+font-family: 'Ultra', serif;
+font-family: 'UnifrakturCook', cursive; */
