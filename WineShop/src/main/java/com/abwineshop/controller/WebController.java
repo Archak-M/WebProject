@@ -13,4 +13,9 @@ public class WebController {
         log.info("Get called...");
         return "index";
     }
+
+    @GetMapping("order")
+    public String getOrderPage(){
+        return "order";
+    }
 }
